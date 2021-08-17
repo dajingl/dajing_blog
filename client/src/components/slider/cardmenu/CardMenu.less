@@ -1,0 +1,79 @@
+.header_inner {
+    width: 240px;
+    background: #fff;
+    text-align: center;
+
+    .site_brand_wrapper {
+        height: 112px;
+        background: #222;
+        color: #fff;
+        padding: 20px 0;
+
+        .t {
+            display: inline-block;
+            vertical-align: top;
+            line-height: 36px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        p {
+            font-size: 13px;
+            color: #ddd;
+            margin: 10px 10px 0 10px;
+        }
+    }
+
+
+    .menu {
+        padding: 20px 0;
+        margin-bottom: 20px;
+
+        ul {
+            width: 100%;
+            text-align: left;
+        }
+
+        li {
+            width: 100%;
+            line-height: 2;
+
+            a {
+                display: block;
+                font-size: 13px;
+                position: relative;
+                box-sizing: border-box;
+                padding: 5px 20px;
+                text-align: left;
+                line-height: inherit;
+                transition-property: background-color;
+                transition-duration: .2s;
+                transition-timing-function: ease-in-out;
+                transition-delay: 0s;
+                color: #333;
+            }
+
+            span {
+                margin-right: 3px;
+            }
+        }
+
+        li.active a:after {
+            content: " ";
+            position: absolute;
+            top: 50%;
+            margin-top: -3px;
+            right: 15px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: #bbb;
+        }
+
+        li.active,
+        li:hover {
+            background: #f9f9f9;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+(this["webpackJsonpmy-admin"]=this["webpackJsonpmy-admin"]||[]).push([[9],{447:function(n,s,t){},900:function(n,s,t){"use strict";t.r(s);t(0),t(447);var i=t(7);s.default=function(){return Object(i.jsx)("div",{className:"home_box"})}}}]);

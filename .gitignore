@@ -1,0 +1,13 @@
+*/.DS_Store
+*node_modules/
+*node_modules
+*.zip
+.tea/
+client/node_modules/
+client/node_modules
+.DS_Store
+debug.log
+*.log
+*/.log
+*dist
+*dist/

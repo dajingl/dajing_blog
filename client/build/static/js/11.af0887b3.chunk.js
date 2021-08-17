@@ -1,0 +1,1 @@
+(this["webpackJsonpmy-blog"]=this["webpackJsonpmy-blog"]||[]).push([[11],{410:function(n,s,t){},418:function(n,s,t){"use strict";t.r(s);t(0),t(410);var e=t(3);s.default=function(){return Object(e.jsx)("div",{children:"MessageBoard"})}}}]);
